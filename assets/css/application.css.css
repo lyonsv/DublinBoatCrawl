@@ -919,6 +919,8 @@ footer {
     padding-right: 10px; }
   .company-hero li:last-child {
     padding-right: 0; }
+  .company-hero a {
+    color: white; }
 
 .modal {
   padding: none;
