@@ -1,0 +1,23 @@
+// 
+// Resets from Normalize, Framework from http://bourbon.io, Grids from http://neat.bourbon.io, 
+// and SASS scaffold from http://bitters.bourbon.io
+//
+@import "reset";
+@import "bourbon", "neat";
+// 
+//Files are to be organised by SMACSS, base/ files provided by Bitters Gem.
+//
+@import "base/variables";
+@import "base/grid-settings";
+@import "base/typography";
+@import "base/forms";
+@import "base/buttons";
+//
+//Layout files
+//
+@import "layout/layout";
+
+//
+//Modal Window
+//
+@import "partials/modal";
