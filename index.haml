@@ -1,8 +1,29 @@
 !!!5
 %html
-  %link{ :rel => "stylesheet", :href => "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" }
-  %link{ :rel => "stylesheet", :href => "bower_components/remodal/dist/jquery.remodal.css" }
-  %link{:rel => "stylesheet", :href => "assets/css/application.css.css"}
+  %head
+    //Meta Information
+    
+    %title="Dublin Boat Crawl | Pints and a Boat"
+    %meta{:name => "viewport", :content => "width=device-width; initial-scale=1.0; maximum-scale=1.0;"}
+    %meta{:content => "A pub crawl by boat launching in March 2015", :name => "description"}/
+    %meta{:content => "boat, stag night, hen party, pub, tourism, ireland, dublin, things to do in dublin", :name => "keywords"}/
+
+    %meta{:name => "og:title", :content => "A Pub Crawl by Boat"}
+    //%meta{:name => "og:type", :content => "website"}
+    //%meta{:name => "og:url", :content => "http://dublinboatcrawl.com"}
+    //%meta{:name => "og:image", :content => ""}
+    //%meta{:name => "og:site_name", :content => ""}
+    //%meta{:name => "og:admins", :content => ""}
+    %meta{:name => "og:description", :content => "Dublin Boat Crawl is launching in March 2015"}
+
+
+
+
+    //Stylesheets
+    
+    %link{:rel => "stylesheet", :href => "//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" }
+    %link{:rel => "stylesheet", :href => "bower_components/remodal/dist/jquery.remodal.css" }
+    %link{:rel => "stylesheet", :href => "assets/css/application.css.css"}
   %body
     .remodal-bg
       .remodal{ :data => {:remodal_id => "modal"}}
@@ -39,5 +60,6 @@
             %a{:href => "http://instagram.com/DublinBoatCrawl"}
               <i class="fa fa-instagram"></i>
       %footer
+      // Scripts
       %script{:type => "text/javascript", :src => "bower_components/jquery/dist/jquery.min.js"}
       %script{:type => "text/javascript", :src => "bower_components/remodal/dist/jquery.remodal.min.js"}  
